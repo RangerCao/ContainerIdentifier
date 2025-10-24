@@ -1,0 +1,19 @@
+# 集装箱图片识别项目配置文件
+# 他妈的配置，别乱改！
+
+# 图片文件夹路径
+image_folder = C:\Users\27138\Downloads\2025年第六届MathorCup数学应用挑战赛—大数据竞赛初赛赛题\2025年MathorCup大数据挑战赛-赛道A初赛\数据集3713\images\train
+
+# 支持的图片格式
+supported_extensions = .jpg, .jpeg, .png, .bmp, .tiff
+
+# 显示设置
+max_display_height = 800
+auto_resize = true
+
+# 模型设置
+confidence_threshold = 0.6
+device = cpu
+
+# 调试模式
+debug_mode = false
