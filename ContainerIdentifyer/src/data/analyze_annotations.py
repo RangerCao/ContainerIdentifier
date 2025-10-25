@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import glob
 
+# 数据集图片类型可视化
 
 # 设置中文字体 - 解决中文显示问题
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'DejaVu Sans']  # 用来正常显示中文标签

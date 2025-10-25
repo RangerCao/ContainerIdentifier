@@ -6,6 +6,8 @@ from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 import os
 
+# ！！已弃用！！
+# 原本用于数据集分类
 
 class ContainerDamageDataset(Dataset):
     """集装箱破损分类数据集"""

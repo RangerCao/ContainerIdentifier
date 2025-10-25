@@ -3,6 +3,8 @@ import cv2
 import glob
 from PIL import Image
 
+# 数据集图片诊断
+
 
 def check_permissions_and_files():
     """

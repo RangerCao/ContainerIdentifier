@@ -1,0 +1,9 @@
+names:
+- dent
+- hole
+- rusty
+nc: 3
+path: D:\ContainerIdentifyer\data
+test: images/test
+train: images/train
+val: images/val

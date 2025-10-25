@@ -1,0 +1,12 @@
+# dataset.yaml
+# train_yolo.py的配置文件
+
+path: D:/ContainerIdentifyer/data  # 数据集根目录
+train: images/train  # 训练图片路径
+val: images/val      # 验证图片路径
+
+# 类别数量
+nc: 3  # 根据你的实际类别数修改
+
+# 类别名称
+names: ['dent','hole','rusty']  # 根据你的实际类别名称修改

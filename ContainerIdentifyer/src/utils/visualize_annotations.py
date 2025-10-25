@@ -4,6 +4,8 @@ import random
 import glob
 import numpy as np
 
+# ！！已弃用！！
+# 标注可视化测试
 
 class AnnotationVisualizer:
     def __init__(self, image_folder, label_folder, class_names=None):
@@ -192,8 +194,8 @@ class AnnotationVisualizer:
 
 def main():
     # 配置路径
-    image_folder = r"D:\ContainerIdentifyer\data\images"
-    label_folder = r"D:\ContainerIdentifyer\data\labels"
+    image_folder = r"D:\ContainerIdentifyer\data\images\train"
+    label_folder = r"D:\ContainerIdentifyer\data\labels\train"
 
     # 检查路径是否存在
     if not os.path.exists(image_folder):
@@ -232,7 +234,7 @@ def main():
     elif choice == "3":
         # 批量可视化
         max_images = int(input("最大处理数量 (默认50): ") or "50")
-        save_dir = input("保存目录 (必须提供): ").strip()
+        save_dir = r"D:\ContainerIdentifyer\data\images\val"
         if not save_dir:
             print("❌ 批量处理必须提供保存目录")
             return
